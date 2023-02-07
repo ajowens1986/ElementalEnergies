@@ -67,14 +67,5 @@ nav li img {
   height: 40px;
 }
 
- .product-item {
-    text-align: center;
-  }
-  .price,
-  .details {
-    display: inline-block;
-  }
-  .product-images img {
-    display: inline-block;
-  }
+
   
