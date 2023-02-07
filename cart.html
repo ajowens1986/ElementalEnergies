@@ -9,6 +9,26 @@
   <header>
     <h1>Elemental Energies</h1>
     
+    <h2>Venmo</h2>
+    <form action="https://venmo.com/" method="post">
+  <input type="hidden" name="txnType" value="pay">
+  <input type="hidden" name="recipient" value="YourUsername">
+  <input type="hidden" name="amount" value="10">
+  <input type="hidden" name="note" value="Payment for your goods or services">
+  <input type="submit" value="Pay with Venmo">
+</form>
+    
+    <h2>Cash App</h2>
+  <form>
+  <input type="text" name="email_or_phone" placeholder="Email or Phone Number">
+  <input type="text" name="amount" placeholder="Amount">
+  <input type="text" name="note" placeholder="Note (optional)">
+  <input type="submit" value="Request Payment">
+</form>
+    
+    <h2>Facebook Pay</h2>
+    <a href="https://www.facebook.com/profile.php?id=100086655925932/checkout/" target="_blank">Pay with Facebook Pay</a>
+    
     <div id="checkout-section">
   <h2>Checkout</h2>
       <div>
