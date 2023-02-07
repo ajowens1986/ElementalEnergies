@@ -3,8 +3,12 @@ html, body {
   width: 100%;
 }
 
-header h1 {
+header {
 text-align: center;
+}
+
+h1 {
+  text-aligh: center;
 }
 
 h2 {
