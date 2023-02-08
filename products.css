@@ -1,6 +1,5 @@
 .product-item {
-      width: 33.33%;
-      height: 33.33%;
+      width: 80%;
       margin: 0 auto;
       text-align: center;
     }
@@ -11,9 +10,12 @@
 }
 
 .product-images {
+
   text-align: center;
 }
 
 .product-images img {
   display: inline-block;
+  width: 33.33%;
+  height: 33.33%;
 }
